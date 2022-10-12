@@ -39,6 +39,9 @@ int main(){
 	vector<int> visited;
 	solve(ini, 0, visited,nums, energy);
 	cout << ans << endl;
+	cout<<"name";
+	int a=0;
+	a= 1==2?3:2;
 
 	return 0;
 }
