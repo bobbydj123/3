@@ -8,7 +8,7 @@ using namespace std;
 #define fastio() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 #define filewr() freopen("input.txt","r",stdin);freopen("output.txt","w",stdout);
  
-int ans = INT_MIN;
+int ans = INT_MIN;123
 void solve(int curr, int currcost, vector<int> visited, vector<int> nums, vector<int> energy){
 	cout << curr << endl;
 	if(nums[curr]==0) ans = max(ans, currcost);
